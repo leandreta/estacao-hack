@@ -1,0 +1,96 @@
+/* h1 {
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    color: rgb(60, 143, 97);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+p {
+    color: red;
+}
+
+a {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border: black 3px dotted;
+} */
+
+/* div {
+    color: green;
+    font-family: fantasy;
+    font-weight: bold; 
+    font-weight: italic;
+    font-size: 25px;
+    background-color: cadetblue;
+} */
+
+/* .naruto {
+    width: 300px;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    border: 5px solid blue;
+    background-color: rgb(210, 224, 15);
+    border-radius: 20px;
+
+} */
+
+.container-1 {
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+
+}
+
+.container-2 {
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+
+.container-box {
+    width: 10%;
+}
+
+.container-1 div, .container-2 div {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.box-1 {
+    flex: 1;
+    order: 1;
+
+}
+
+.box-2 {
+    flex: 2;
+    order: 2;
+
+}
+
+.box-3 {
+    flex: 3;
+    order: 3;
+
+}
+
+.box-4 {
+    flex: 4;
+    order: 4;
+
+}
+
